@@ -1,0 +1,169 @@
+.home {
+    background-image: url('../media/bentley1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: auto;
+}
+.vendorAccount {
+    background-image: url('../media/headlights.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    width: 100%;
+}
+.title {
+    color: rgb(248, 232, 232);
+}
+.heading {
+    color: whitesmoke;
+}
+.homeLogo {
+    float: right;
+    color: rgba(247, 232, 232, 0.932);
+    margin-right: 10px;
+}
+.homeLogo:hover {
+    color: rgba(175, 217, 236, 0.582);
+}
+.linkHover {
+    color: rgba(247, 232, 232, 0.932);
+    text-decoration: none;
+}
+.linkHover:hover {
+    color: rgba(175, 217, 236, 0.582);
+}
+.navigationLinks {
+    color: rgb(235, 32, 89);
+    text-decoration: none;
+    font-size: 18px;
+}
+.navigationLinks:hover {
+    color: rgba(175, 217, 236, 0.582);
+}
+.carLogo {
+    color: gainsboro;
+}
+.navbar {
+    background: #1B1C1D;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 17px;
+}
+.footer {
+    background: #1B1C1D;
+    color: rgba(255, 255, 255, 0.9);
+}
+.vendorLogin {
+    padding-bottom: 100px;
+}
+.subheading {
+    font-family: optima;
+    font-size: 14px;
+    color: rgb(175, 185, 194);
+}
+.inventory {
+    margin: 20px;
+    border: 1px solid #21ba45;
+    border-radius: 6px;
+    padding: 30px;
+    text-align: center;
+}
+.inventoryCard {
+    display: inline-flex;
+}
+.buyButton {
+    margin: 30px;
+}
+.purchaseLink {
+    text-decoration: none;
+    color: #21ba45;
+}
+.purchaseLink:hover {
+    color: white;
+}
+.hwy {
+   width: 600px;
+   height: auto;
+}
+.purchaseHeading {
+    background-color: orangered;
+    color: white;
+    margin-bottom: 5px;
+}
+.purchaseHeading2 {
+    margin-left: 10px;
+}
+.social {
+    height: 38px;
+}
+.store {
+    height: 38px;
+}
+.vehicleImages {
+    height: 190px;
+    width: 220px;
+}
+#popupDiv{
+    display:none;
+}
+#inventoryImage {
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+#media {
+    width: 200px;
+    height: auto;
+}
+#homeHeading {
+    -webkit-text-stroke-color: rgba(8, 8, 8, 0.5);
+    -webkit-text-stroke-width: 0.0425rem;
+    -webkit-text-fill-color: white;
+}
+#headlights {
+   width: 100%;
+}
+#content {
+    margin-top: -87px;
+}
+#addInventoryLink {
+    color: goldenrod;
+    text-decoration: none;
+}
+#addInventoryLink:hover {
+    font-size: 1.3rem;
+    color: rgba(83, 13, 196, 0.603);
+}
+#purchaseSubmit {
+    margin-bottom: 600px;
+}
+#viewInventoryLink {
+    color: rgb(63, 191, 226);
+    font-size: 1.20rem;
+    text-decoration: none;
+    margin-right: 12px;
+}
+#goHomeLink {
+    color: rgb(241, 167, 91);
+    font-size: 1.20rem;
+    text-decoration: none;
+}
+#viewInventoryLink:hover {
+    color: rgba(175, 217, 236, 0.582);
+    font-size: 1.35rem;
+}
+#goHomeLink:hover {
+    color: rgba(175, 217, 236, 0.582);
+    font-size: 1.35rem;
+}
+@media screen and (min-width: 1250px) {
+    .headlightPhoto {
+        height: 500px;
+    }
+.vendorText {
+color: lightgrey;
+}
+}
+#arrangeFooter {
+    margin-bottom: 280px;
+}
